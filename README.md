@@ -1,2 +1,3 @@
 # Cross-Validation
 Cross-validation is a robust technique used to assess the generalizability of a model by partitioning the data into subsets, training the model on some subsets, and validating it on the remaining ones. Here's a concise explanation in six lines:
+Split the dataset into k equally sized folds. Train the model on k−1 folds and validate it on the remaining fold. Repeat this process k times, each time with a different fold as the validation set. Calculate the performance metric (e.g., accuracy) for each fold. Average the performance metrics to obtain a more reliable estimate of the model's performance. This helps in reducing the bias and variance, providing a better assessment of the model's effectiveness on unseen data.
